@@ -1,0 +1,31 @@
+research_task:
+  description: >
+    Conduct a thorough research on plant health, growth patterns, and environmental impact. 
+    Explore the latest advancements in sustainable agriculture, plant genetics, and soil health. 
+    Ensure that the findings are up-to-date and relevant to the agricultural community in {current_year}.
+  expected_output: >
+    A list with 10 bullet points highlighting the most critical insights, trends, and discoveries 
+    in plant research, including references to sources if available.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Analyze and compile the research findings into a structured report. 
+    Expand on each bullet point with scientific explanations, data interpretations, and practical applications. 
+    Ensure clarity for researchers, farmers, and policymakers.
+  expected_output: >
+    A comprehensive, well-organized report with sections dedicated to key findings, 
+    potential applications, and recommendations for the agricultural sector. 
+    The report should be formatted in markdown without '```'.
+  agent: reporting_analyst
+
+blog_writing_task:
+  description: >
+    Transform the research findings and report insights into an engaging and informative blog post. 
+    The blog should be accessible to a general audience, avoiding overly technical language. 
+    Emphasize real-world applications, sustainable farming practices, and innovation in plant research.
+  expected_output: >
+    A blog post of 100-200 words, formatted in markdown, containing an introduction, 
+    key findings, and a conclusion that encourages discussion or action. 
+    The tone should be informative yet engaging, making complex research easy to understand.
+  agent: blog_writer
