@@ -13,7 +13,7 @@ class PlantsResearcher():
     def researcher(self) -> Agent:
         return Agent(
             config=self.agents_config['researcher'],
-            tools=[SerperDevTool()],  # Using Serper Dev Tool for research
+            tools=[SerperDevTool()], 
             verbose=True
         )
 
@@ -41,13 +41,14 @@ class PlantsResearcher():
     def reporting_task(self) -> Task:
         return Task(
             config=self.tasks_config['reporting_task'],
+            output_file='output/report.md'
         )
 
     @task
     def blog_writing_task(self) -> Task:
         return Task(
             config=self.tasks_config['blog_writing_task'],
-            output_file='blog.md'  # Saving the blog output to blog.md
+            output_file='output/blog.md'
         )
 
     @crew

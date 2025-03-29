@@ -11,9 +11,6 @@ dependencies = [
 [project.scripts]
 plants_researcher = "plants_researcher.main:run"
 run_crew = "plants_researcher.main:run"
-train = "plants_researcher.main:train"
-replay = "plants_researcher.main:replay"
-test = "plants_researcher.main:test"
 
 [build-system]
 requires = ["hatchling"]

@@ -21,11 +21,19 @@ reporting_task:
 
 blog_writing_task:
   description: >
-    Transform the research findings and report insights into an engaging and informative blog post. 
-    The blog should be accessible to a general audience, avoiding overly technical language. 
-    Emphasize real-world applications, sustainable farming practices, and innovation in plant research.
+    Craft a compelling and well-structured blog post that transforms research findings 
+    into an engaging and informative article. The blog should be written in a 
+    conversational yet professional tone, making complex plant research easy to understand.  
+    Focus on real-world applications, sustainable farming techniques, and innovative 
+    discoveries in plant science. Ensure the blog flows naturally with smooth transitions 
+    between sections, keeping the reader engaged from start to finish.
+
   expected_output: >
-    A blog post of 100-200 words, formatted in markdown, containing an introduction, 
-    key findings, and a conclusion that encourages discussion or action. 
-    The tone should be informative yet engaging, making complex research easy to understand.
+    A high-quality blog post of 400-600 words, formatted in markdown, featuring:  
+    - A **captivating introduction** that hooks the reader and introduces the topic.  
+    - **Key research findings** presented in a structured and digestible format.  
+    - **Real-world applications** or benefits of the research.  
+    - **A strong conclusion** that provides key takeaways and encourages further discussion.  
+    - Proper use of headings, bullet points, and formatting for readability.  
+
   agent: blog_writer
