@@ -41,14 +41,16 @@ class PlantsResearcher():
     def reporting_task(self) -> Task:
         return Task(
             config=self.tasks_config['reporting_task'],
-            output_file='output/report.md'
+            output_file='output/report.md',
+            inputs=[self.research_task().output]
         )
 
     @task
     def blog_writing_task(self) -> Task:
         return Task(
             config=self.tasks_config['blog_writing_task'],
-            output_file='output/blog.md'
+            output_file='output/blog.md',
+            inputs=[self.reporting_task().output]
         )
 
     @crew

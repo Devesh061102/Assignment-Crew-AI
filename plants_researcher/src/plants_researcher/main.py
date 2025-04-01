@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 
 def run():
     """Run the research crew for a specific plant."""
-    plant_name = "Rose"
+    plant_name = "Tomato"
     inputs = {'plant_name': plant_name, 'current_year': str(datetime.now().year)}
     
     try:
